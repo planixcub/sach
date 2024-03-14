@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.following {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.following span {
+    font-weight: bold;
+}
+
+.accounts,
+.posts,
+.tagged {
+    margin-bottom: 1rem;
+}
+
+.accounts p,
+.posts p,
+.tagged p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.accounts ul,
+.posts ul,
+.tagged ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accounts li,
+.posts li,
+.tagged li {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}

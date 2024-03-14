@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Stile.</title>
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="/logo.png" alt="LOGO"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa" onclick="hideMenu()">×</i>
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li> <a href="shop.html">Shop</a></li>
+                <li> <a href="login.html">Login</a></li>
+                <li> <a href="artist.html">Artist</a></li>
+            </ul>
+        </div>
+        <i class="fa" onclick="showMenu()">=</i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Stile.</br>Unleash Your Inner Chic</h1>
+        <p>Located in Dubai</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+
+    </section>
+
+
+
+</section>
+<!-- OFFICE -->
+<section class="campus">
+   <h1>Our Styles</h1>
+   <p>Stile's exquisite collection of styles - a symphony of sophistication, innovation, and self-expression.
+    Our designs are more than just garments; they are a canvas for your personal narrative,
+    an ode to the unique facets that make you, you.</p>
+
+   <div class="row">
+    <div class="campus-col">
+      <img src="MW6.jpeg" alt="image">
+      <div class="layer">
+        <h3 class="layer">Elegance</h3>
+      </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="MW4.jpeg" alt="image">
+        <div class="layer">
+          <h3 class="layer">Studdborn</h3>
+        </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="MW3.jpeg" alt="image">
+          <div class="layer">
+            <h3 class="layer">Old Money</h3>
+          </div>
+          </div>
+    </div>
+   </div>
+
+</section>
+<br><br>
+<hr class="hr1">
+<section class="facilities">
+  <h1>Brands</h1>
+  <p></p>
+
+     <div class="row">
+      <div class="facilities-col">
+        <img src="BPolo.jpg" alt="">
+        <h3>POLO</h3>
+        <p>The all-new G700™ is the world's longest-range business aircraft</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="BDior.jpg" alt="">
+        <h3>DIOR</h3>
+        <p>Elegance Personified in Dior Couture.</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="BSacoor.png" alt="">
+        <h3>SACOOR BROTHERS</h3>
+        <p>Beyond Fashion, Embrace Sacoor Sophistication.</p>
+      </div>
+
+     </div>
+
+     <div class="row">
+      <div class="facilities-col">
+        <img src="BChanel.jpg" alt="">
+        <h3>CHANEL</h3>
+        <p>Graceful Rebellion, Chanel Style.</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="BPrada.jpg" alt="">
+        <h3>PRADA</h3>
+        <p>Step into Confidence, Step into Prada.</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="BLouis.jpg" alt="">
+        <h3>LOUIS VUITTON</h3>
+        <p>Journey in Style with Louis Vuitton.</p>
+      </div>
+
+     </div>
+</section>
+
+
+
+<!--    CALL TO ACTION -->
+
+<section class="cta">
+  <h1>Select Your Brands With US!</h1>
+  <a href="login.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--    FOOTER -->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <!--ICONS-->
+  <p>DEVELOPED BY <a href="#" class="footerlink">SACHIN-DEV-KAVYA</a></p>
+</section>
+
+
+<!-- JS FOR MENU-->
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+</body>
+</html>
